@@ -5,13 +5,18 @@
 ## 学习记录
 
 - [2026-09-14 ～ 2026-09-15：从 Tensor 到衣服图片分类](records/2026-09-14_2026-09-15.md)
+- [2026-09-16：从模型评估到 CIFAR-10 规范训练](records/2026-09-16.md)
+
+## 练习代码
+
+- [2026-09-16：test17 ～ test30](code/2026-09-16/)
 
 ## 当前学习主线
 
-Tensor → 自动求导 → 参数更新 → Module → Loss / Optimizer → Dataset / DataLoader → Linear → ReLU / MLP → 分类 → Fashion-MNIST。
+Tensor → 自动求导 → 参数更新 → Module → Loss / Optimizer → Dataset / DataLoader → Linear → ReLU / MLP → 分类 → Fashion-MNIST → CNN → CIFAR-10。
 
 ## 接下来
 
-先完成图片模型的独立测试、预测展示和保存加载，再学习 CNN，逐步进入预训练模型与视觉语言导航练习。
+先完成 CIFAR-10 的规范训练与结果分析，再学习预训练模型和迁移学习，逐步进入与大创方向接近的小项目。
 
-本仓库目前只收录 Markdown 学习记录，不上传数据集、虚拟环境、训练缓存或个人账户配置。练习结果与尚未确认的指标在记录中分开说明。
+本仓库收录 Markdown 学习记录和对应的 Python 练习代码，不上传数据集、模型参数、虚拟环境、训练缓存或个人账户配置。练习结果与尚未确认的指标在记录中分开说明。
