@@ -9,6 +9,7 @@
 - [2026-09-19：从完整流程复习到 CIFAR-10 错误分析](records/2026-09-19.md)
 - [2026-09-20：从学习率实验到文本 Padding 与 Mask](records/2026-09-20.md)
 - [2026-09-21：文本分类训练与 Transformer 实战迁移](records/2026-09-21.md)
+- [2026-09-22：从 Transformer 训练到图文融合候选打分](records/2026-09-22.md)
 
 ## 练习代码
 
@@ -16,13 +17,14 @@
 - [2026-09-19：test31 模型错误分析](code/2026-09-19/)
 - [2026-09-20：test32 ～ test37](code/2026-09-20/)
 - [2026-09-21：test38 ～ test39](code/2026-09-21/)
+- [2026-09-22：test40 ～ test45](code/2026-09-22/)
 
 ## 当前学习主线
 
-Tensor → 自动求导 → 参数更新 → Module → Loss / Optimizer → Dataset / DataLoader → Linear → ReLU / MLP → 分类 → Fashion-MNIST → CNN → CIFAR-10 → ResNet迁移学习 → 文本Embedding/Mask → 文本分类训练 → PyTorch Transformer。
+Tensor → 自动求导 → 参数更新 → Module → Loss / Optimizer → Dataset / DataLoader → Linear → ReLU / MLP → 分类 → Fashion-MNIST → CNN → CIFAR-10 → ResNet迁移学习 → 文本Embedding/Mask → PyTorch Transformer训练 → 预训练BERT → 图文融合候选打分。
 
 ## 接下来
 
-将以前用 NumPy 手写并学过的 Attention/Transformer 迁移到 PyTorch，训练顺序敏感的指令模型；再将 ResNet 图像特征与 Transformer 文本特征融合，逐步进入 Mini-VLN。
+继续完成图文融合训练代码的逐段理解，改善陌生指令句式的泛化能力，再将合成颜色图片替换成更真实的视觉导航特征，逐步进入 Mini-VLN。
 
 本仓库收录 Markdown 学习记录和对应的 Python 练习代码，不上传数据集、模型参数、虚拟环境、训练缓存或个人账户配置。练习结果与尚未确认的指标在记录中分开说明。
