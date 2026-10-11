@@ -1,0 +1,9 @@
+# Only learning records and source code belong in this repository.
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.cache/
+models/
+data/
+artifacts/
